@@ -1,0 +1,205 @@
+.bg-container {
+  background-color: #9ba9eb;
+  background-size: cover;
+}
+.pass-mana-logo {
+  height: 50px;
+  width: 150px;
+  margin: 10px;
+}
+.pass-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pass-add-container {
+  background-color: #5763a5;
+  display: flex;
+  width: 80%;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: ;
+}
+@media screen and (max-width: 768px) {
+  .pass-add-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .flex-start {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.inputs-container {
+  background-color: #454f84;
+  margin: 30px;
+  border-radius: 10px;
+}
+.flex-end {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 7px;
+}
+.heading {
+  color: #f8fafc;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 14px;
+}
+.search-logo {
+  width: 17px;
+  height: 17px;
+  margin: 10px;
+}
+.input {
+  background-color: white;
+  height: 35px;
+  width: 250px;
+  margin: 15px;
+  display: flex;
+  flex-direction: row;
+}
+.search-input {
+  height: 35px;
+  width: 250px;
+  border: 0px;
+  border-left: solid #94a3b8 1px;
+  padding-left: 5px;
+}
+.pass-manager {
+  width: 310px;
+  height: 310px;
+  margin-right: 20px;
+}
+.button {
+  background-color: #0b69ff;
+  width: 60px;
+  height: 27px;
+  color: #ffffff;
+  border: 0px;
+  margin-right: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.pass-get-container {
+  background-color: #5763a5;
+  width: 80%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+.pass-search-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.search-pass {
+  background-color: #ffffff;
+  height: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 32px;
+}
+.pass-heading {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 32px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .pass-heading {
+    font-size: 13px;
+    font-weight: 500;
+  }
+}
+.pass-count {
+  background-color: transparent;
+  border: #ffffff solid 1px;
+  border-radius: 30px;
+  height: 25px;
+  width: 40px;
+  font-size: 18px;
+  text-align: center;
+  margin-left: 10px;
+}
+@media screen and (max-width: 768px) {
+  .pass-count {
+    font-size: 13px;
+    height: 20px;
+    width: 30px;
+  }
+}
+.search-logo {
+  width: 15px;
+  height: 15px;
+}
+@media screen and (max-width: 768px) {
+  .search-logo {
+    width: 12px;
+    height: 12px;
+  }
+}
+.pass-search {
+  height: 25px;
+  width: 150px;
+  border: 0px;
+  border-left: solid #94a3b8 1px;
+}
+@media screen and (max-width: 768px) {
+  .pass-search {
+    height: 25px;
+    width: 100px;
+  }
+}
+hr {
+  width: 94%;
+  color: #f8fafc;
+}
+.checkbox-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 32px;
+  color: #ffffff;
+  margin-top: 8px;
+}
+#checkbox {
+  width: 19px;
+  height: 19px;
+  margin-right: 7px;
+  cursor: pointer;
+}
+.no-pass-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.no-pass-img {
+  width: 320px;
+  height: 250px;
+}
+.no-pass-text {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,63 @@
+.Web-Details-container {
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: solid #9ba9eb 1px;
+  border-radius: 10px;
+  width: 240px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.web-text-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.web-first-letter {
+  height: 30px;
+  width: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  margin-left: 10px;
+}
+.text-container {
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.text {
+  font-size: 13px;
+  border-bottom: 10px;
+  margin-bottom: 5px;
+}
+.star {
+  height: 15px;
+  width: 90px;
+  margin-top: 8px;
+}
+.delete {
+  height: 20px;
+  width: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+.delete-btn {
+  background-color: transparent;
+  width: 25px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: 0px;
+}
+.orange {
+  background-color: orange;
+}
