@@ -1,6 +1,12 @@
 .bg-container {
   background-color: #9ba9eb;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+.logo-container {
+  width: 80%;
+  align-self: center;
 }
 .pass-mana-logo {
   height: 50px;
